@@ -13,7 +13,7 @@ def predict(model, input_df):
 def run():
 
     from PIL import Image
-    image = Image.open('logo.png')
+    image = Image.open('Pascal.png')
     image_hospital = Image.open('hospital.jpg')
 
     st.image(image,use_column_width=False)
